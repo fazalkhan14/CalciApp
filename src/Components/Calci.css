@@ -1,0 +1,7 @@
+.calci{
+    display: flex;
+    flex-direction: column;
+    width: 15em;
+    height: 20em;
+    background: #1a1a1b;
+}

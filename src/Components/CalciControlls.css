@@ -1,0 +1,46 @@
+.calci-controlls{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    font-size: large;
+    border-radius: 0px 0px 12px 12px;
+    overflow: hidden;
+}
+
+.calci-controlls_num{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 75%;
+    height: 100%;
+}
+
+.calci-controlls_num button{
+    height: 25%;
+    width: 33.3%;
+    border: none;
+    color: white;
+    background: #000;
+    font-size: large;
+}
+
+.calci-controlls_opr{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 100%;
+}
+
+.calci-controlls_opr button{
+    height: 25%;
+    width: 100%;
+    border: none;
+    background: #2e323b;
+    color: white;
+    font-size: large;
+}
+
+.calci-controlls_opr button:last-child{
+    background: rgb(255, 56, 56);
+}
